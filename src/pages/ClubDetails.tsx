@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Users, Award, Calendar, MapPin, User, Ticket, ArrowLeft, ChevronRight } from 'lucide-react';
+import { Users, Calendar, MapPin, User, Ticket, ArrowLeft, ChevronRight, Trophy } from 'lucide-react';
 import PlayerCard from '../components/PlayerCard';
 import NotFound from './NotFound';
 import { topClubs } from '../data/clubs';

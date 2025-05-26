@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Flag, Award } from 'lucide-react';
+import { Flag } from 'lucide-react';
 import { Player } from '../types';
 
 interface PlayerCardProps {

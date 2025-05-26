@@ -8,6 +8,12 @@ import { topClubs } from '../data/clubs';
 import { popularPlayers } from '../data/players';
 
 const Dashboard: React.FC = () => {
+  // Add this inside the Dashboard component, right after the opening
+console.log('=== DEBUG INFO ===');
+console.log('topClubs:', topClubs);
+console.log('topClubs length:', topClubs?.length);
+console.log('popularPlayers:', popularPlayers);
+console.log('popularPlayers length:', popularPlayers?.length);
   return (
     <div className="fade-in">
       {/* Hero Section */}
